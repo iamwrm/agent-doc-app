@@ -1,0 +1,173 @@
+{
+  "../node_modules/dejavu-fonts-ttf/ttf/DejaVuSansMono-Bold.ttf": {
+    "file": "assets/DejaVuSansMono-Bold-DvCRqGUw.ttf",
+    "src": "../node_modules/dejavu-fonts-ttf/ttf/DejaVuSansMono-Bold.ttf"
+  },
+  "../node_modules/dejavu-fonts-ttf/ttf/DejaVuSansMono-BoldOblique.ttf": {
+    "file": "assets/DejaVuSansMono-BoldOblique-BX884Ge1.ttf",
+    "src": "../node_modules/dejavu-fonts-ttf/ttf/DejaVuSansMono-BoldOblique.ttf"
+  },
+  "../node_modules/dejavu-fonts-ttf/ttf/DejaVuSansMono-Oblique.ttf": {
+    "file": "assets/DejaVuSansMono-Oblique-dUWXtG9a.ttf",
+    "src": "../node_modules/dejavu-fonts-ttf/ttf/DejaVuSansMono-Oblique.ttf"
+  },
+  "../node_modules/dejavu-fonts-ttf/ttf/DejaVuSansMono.ttf": {
+    "file": "assets/DejaVuSansMono-BpbqSJXz.ttf",
+    "src": "../node_modules/dejavu-fonts-ttf/ttf/DejaVuSansMono.ttf"
+  },
+  "../node_modules/roboto-fontface/fonts/roboto/Roboto-Bold.woff": {
+    "file": "assets/Roboto-Bold-D9plYbeK.woff",
+    "src": "../node_modules/roboto-fontface/fonts/roboto/Roboto-Bold.woff"
+  },
+  "../node_modules/roboto-fontface/fonts/roboto/Roboto-BoldItalic.woff": {
+    "file": "assets/Roboto-BoldItalic-CyLKvOHD.woff",
+    "src": "../node_modules/roboto-fontface/fonts/roboto/Roboto-BoldItalic.woff"
+  },
+  "../node_modules/roboto-fontface/fonts/roboto/Roboto-Regular.woff": {
+    "file": "assets/Roboto-Regular-BX5l9hRW.woff",
+    "src": "../node_modules/roboto-fontface/fonts/roboto/Roboto-Regular.woff"
+  },
+  "../node_modules/roboto-fontface/fonts/roboto/Roboto-RegularItalic.woff": {
+    "file": "assets/Roboto-RegularItalic-BjnLZsam.woff",
+    "src": "../node_modules/roboto-fontface/fonts/roboto/Roboto-RegularItalic.woff"
+  },
+  "../shared/compact.js": {
+    "file": "assets/compact-CsFLA8Xr.js",
+    "name": "compact",
+    "src": "../shared/compact.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_ghsettings-6DsdPQFF.js"
+    ]
+  },
+  "../shared/html.js": {
+    "file": "assets/html-DAE4W1E8.js",
+    "name": "html",
+    "src": "../shared/html.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_ops-DHl3zy3h.js"
+    ]
+  },
+  "../shared/native.js": {
+    "file": "assets/native-BAoouC9d.js",
+    "name": "native",
+    "src": "../shared/native.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_ops-DHl3zy3h.js"
+    ]
+  },
+  "_ghsettings-6DsdPQFF.js": {
+    "file": "assets/ghsettings-6DsdPQFF.js",
+    "name": "ghsettings",
+    "imports": [
+      "index.html"
+    ],
+    "dynamicImports": [
+      "../shared/compact.js"
+    ]
+  },
+  "_ops-DHl3zy3h.js": {
+    "file": "assets/ops-DHl3zy3h.js",
+    "name": "ops"
+  },
+  "_y-indexeddb-DEllokZD.js": {
+    "file": "assets/y-indexeddb-DEllokZD.js",
+    "name": "y-indexeddb",
+    "imports": [
+      "_ops-DHl3zy3h.js"
+    ]
+  },
+  "editor.js": {
+    "file": "assets/editor-BuyJmzWM.js",
+    "name": "editor",
+    "src": "editor.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_ops-DHl3zy3h.js",
+      "index.html",
+      "_y-indexeddb-DEllokZD.js",
+      "_ghsettings-6DsdPQFF.js"
+    ],
+    "dynamicImports": [
+      "_ops-DHl3zy3h.js",
+      "github.js",
+      "../shared/native.js",
+      "pdf.js",
+      "../shared/html.js",
+      "history.js"
+    ],
+    "assets": [
+      "assets/pi.worker-DLlO44e8.js"
+    ]
+  },
+  "github.js": {
+    "file": "assets/github-BeSTMvGK.js",
+    "name": "github",
+    "src": "github.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_ops-DHl3zy3h.js",
+      "_y-indexeddb-DEllokZD.js",
+      "_ghsettings-6DsdPQFF.js"
+    ]
+  },
+  "history.js": {
+    "file": "assets/history-CwRs_Wc3.js",
+    "name": "history",
+    "src": "history.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_ops-DHl3zy3h.js",
+      "index.html",
+      "../shared/html.js"
+    ]
+  },
+  "home.js": {
+    "file": "assets/home-C3Yfo5x7.js",
+    "name": "home",
+    "src": "home.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_ghsettings-6DsdPQFF.js"
+    ],
+    "dynamicImports": [
+      "github.js",
+      "../shared/native.js"
+    ]
+  },
+  "index.html": {
+    "file": "assets/index-EXn6hwa4.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "dynamicImports": [
+      "editor.js",
+      "home.js"
+    ],
+    "css": [
+      "assets/index-rGTsVuex.css"
+    ]
+  },
+  "pdf.js": {
+    "file": "assets/pdf-GXCHwZu5.js",
+    "name": "pdf",
+    "src": "pdf.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_ops-DHl3zy3h.js"
+    ],
+    "assets": [
+      "assets/Roboto-Regular-BX5l9hRW.woff",
+      "assets/Roboto-Bold-D9plYbeK.woff",
+      "assets/Roboto-RegularItalic-BjnLZsam.woff",
+      "assets/Roboto-BoldItalic-CyLKvOHD.woff",
+      "assets/DejaVuSansMono-BpbqSJXz.ttf",
+      "assets/DejaVuSansMono-Bold-DvCRqGUw.ttf",
+      "assets/DejaVuSansMono-Oblique-dUWXtG9a.ttf",
+      "assets/DejaVuSansMono-BoldOblique-BX884Ge1.ttf"
+    ]
+  }
+}
